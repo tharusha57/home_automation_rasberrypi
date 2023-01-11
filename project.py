@@ -27,7 +27,7 @@ GPIO.setup(fan , GPIO.OUT)
 GPIO.setup(motor , GPIO.OUT)
 
 # Connect MONGODB string
-CONNECTION_STRING = "mongodb+srv://tharushageethanjana:<password>@cluster0.becund8.mongodb.net/?retryWrites=true&w=majority"
+CONNECTION_STRING = "Your Connection String here"
 
 cluster = MongoClient(CONNECTION_STRING)
 
